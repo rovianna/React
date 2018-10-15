@@ -10,7 +10,6 @@ module.exports = {
         port: 8080,
         contentBase: './public',
     },
-    // Adicionado no ex.3
     resolve: {
         extensions: ['', '.js', '.jsx']
     },
@@ -21,7 +20,6 @@ module.exports = {
             exclude: /node_modules/,
             query: {
                 presets: ['es2015', 'react'],
-                // O plugin foi adicionado no ex.12
                 plugins: ['transform-object-rest-spread']
             }
         }]
